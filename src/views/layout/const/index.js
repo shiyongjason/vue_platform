@@ -28,7 +28,8 @@ export const DOCUMENTS_PATHS = [
                     { title: 'layout 布局', path: '/documents/layout' },
                     { title: 'form 表单', path: '/documents/scroll3' },
                     { title: '附件上传', path: '/documents/upload' },
-                    { title: 'test', path: '/documents/test' }
+                    { title: 'test', path: '/documents/test' },
+                    { title: 'caijie', path: '/documents/caijie' }
 
                 ]
             },

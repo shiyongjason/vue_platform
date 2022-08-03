@@ -1,6 +1,8 @@
 import zfLayout from './zfLayout'
 import commonTable from './zfTable'
 import zfUpload from './zfUpload'
+import zfDatePickers from "./zfDatePickers"
+import zfCutterImg from './zfCutterImg'
 
 
 
@@ -8,7 +10,9 @@ import zfUpload from './zfUpload'
 const components = [
     zfLayout,
     commonTable,
-    zfUpload
+    zfUpload,
+    zfDatePickers,
+    zfCutterImg
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册

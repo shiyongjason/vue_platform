@@ -100,6 +100,11 @@ const routes: Array<RouteConfig> = [
                 name: 'test',
                 component: () => import('@/views/documentsView/test/index.vue'),
             },
+            {
+                path: 'caijie',
+                name: 'caijie',
+                component: () => import('@/views/documentsView/caijie/index.vue'),
+            },
         ],
     },
     {
